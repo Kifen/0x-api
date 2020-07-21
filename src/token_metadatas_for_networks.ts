@@ -18,6 +18,26 @@ export interface TokenMetadataAndChainAddresses {
 // tslint:disable:max-file-line-count
 export const TokenMetadatasForChains: TokenMetadataAndChainAddresses[] = [
     {
+        symbol: 'TKZ',
+        name: 'Tokenizer Platform',
+        decimals: 18,
+        tokenAddresses: {
+            [ChainId.Mainnet]: '0x67feA511a32FE7dfABAE7c1C042c541086D54Bc7',
+            [ChainId.Kovan]: NULL_ADDRESS,
+            [ChainId.Ganache]: NULL_ADDRESS,
+        },
+    },
+    {
+        symbol: 'XR',
+        name: 'Gofind XR',
+        decimals: 18,
+        tokenAddresses: {
+            [ChainId.Mainnet]: '0x61ec1a25f763eef9823773c7bdb9d7c644fb3503',
+            [ChainId.Kovan]: NULL_ADDRESS,
+            [ChainId.Ganache]: NULL_ADDRESS,
+        },
+    },
+    {
         symbol: 'DAI',
         name: 'Dai Stablecoin',
         decimals: 18,
